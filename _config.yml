@@ -40,7 +40,7 @@ defaults:
 authors:
   roby:
     display_name: Roberta Vittiglio
-    gravatar: roby
+    gravatar: roby_round.png
   paul:
     display_name: Paul Schydlo
     gravatar: paul

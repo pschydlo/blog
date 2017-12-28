@@ -1,3 +1,6 @@
+{% assign post = include.post %}
+{% assign author = site.authors[post.author] %}
+
 <article id="post-1040" class="post-1040 post type-post status-publish format-standard has-post-thumbnail hentry category-photography category-travel tag-amazing tag-fun tag-nature xf__entry" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
 
 	<div class="xf__container">
@@ -6,16 +9,16 @@
 
 					<span class="xf__meta-item link-category"><a href="/photography/" rel="category tag">Photography</a>, <a href="https://demo.xfrontend.com/snowbird/category/travel/" rel="category tag">Travel</a></span>
 
-		<span class="xf__meta-item posted-on"><a href="{{include.url}}" rel="bookmark"><time class="entry-date published" datetime="2015-09-18T11:03:20+00:00" itemprop="datePublished">September 18, 2015</time></a></span><span class="xf__meta-item updated-on screen-reader-text"><time class="entry-date updated" datetime="2016-11-25T12:19:21+00:00" itemprop="dateModified">November 25, 2016</time></span>	</div>
+		<span class="xf__meta-item posted-on"><a href="{{post.url}}" rel="bookmark"><time class="entry-date published" datetime="2015-09-18T11:03:20+00:00" itemprop="datePublished">September 18, 2015</time></a></span><span class="xf__meta-item updated-on screen-reader-text"><time class="entry-date updated" datetime="2016-11-25T12:19:21+00:00" itemprop="dateModified">November 25, 2016</time></span>	</div>
 
-			<h2 class="entry-title" itemprop="headline"><a href="{{include.url}}" rel="bookmark">{{include.title}}<header>
+			<h2 class="entry-title" itemprop="headline"><a href="{{post.url}}" rel="bookmark">{{post.title}}<header>
 
 			</header></a></h2>		</header>
 	</div>
 
 	<div class="xf__container">
 	<figure class="xf__feaured-image xf__feaured-image-alt" aria-hidden="true">
-		<a href="{{include.url}}"><img width="1110" height="480" src="{{include.header}}" class="attachment-snowbird-large size-snowbird-large wp-post-image" alt="{{ include.title }}" itemprop="image"></a>	</figure>
+		<a href="{{post.url}}"><img width="1110" height="480" src="{{post.header}}" class="attachment-snowbird-large size-snowbird-large wp-post-image" alt="{{ post.title }}" itemprop="image"></a>	</figure>
 </div>
 
 			<div class="xf__post-wrapper">
@@ -24,12 +27,12 @@
 
 	<div class="xf__entry-meta">
 
-			<img alt="" src="/assets/img/7033694ceb10d10ef79dd7568cfbd0a4" srcset="https://secure.gravatar.com/avatar/7033694ceb10d10ef79dd7568cfbd0a4?s=170&amp;d=mm&amp;r=g 2x" class="avatar avatar-85 photo" height="85" width="85">			<p class="entry-author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">
+			<img alt="" src="/assets/img/gravatars/{{author.gravatar}}" srcset="https://secure.gravatar.com/avatar/7033694ceb10d10ef79dd7568cfbd0a4?s=170&amp;d=mm&amp;r=g 2x" class="avatar avatar-85 photo" height="85" width="85">			<p class="entry-author vcard" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">
 				<span>by:</span>
-				<span class="fn author" itemprop="name"><a class="url" href="https://demo.xfrontend.com/snowbird/author/xfrontend/" title="Posts by Kristy Fahey" itemprop="url" rel="author">Kristy Fahey</a></span></p>
+				<span class="fn author" itemprop="name">{{author.display_name}}</span></p>
 
-							<p class="comment-count">
-					<a href="https://demo.xfrontend.com/snowbird/mountain-winter-landscape-in-austria/#comments">10 Comments</a>				</p>
+							<!--<p class="comment-count">
+					<a href="https://demo.xfrontend.com/snowbird/mountain-winter-landscape-in-austria/#comments">10 Comments</a>				</p>-->
 
 
 		<hr class="separator">
@@ -62,8 +65,8 @@
 		</div>
 
 					<div class="content entry-content" itemprop="text">
-						<p><span class="dropcap">{{ include.content | strip_html | slice:0 }} </span>{{ include.content | strip_html | slice: 1, 1000 | truncatewords: 60  }}</p>
-<p><span class="xf__dots">…</span><a class="xf__more xf__button" href="{{include.url}}">Read More</a></p>
+						<p><span class="dropcap">{{ post.content | strip_html | slice:0 }} </span>{{ post.content | strip_html | slice: 1, 1000 | truncatewords: 60  }}</p>
+<p><span class="xf__dots">…</span><a class="xf__more xf__button" href="{{post.url}}">Read More</a></p>
 					</div>
 							</div>
 		</div>
