@@ -2,7 +2,7 @@
 
 {% include header.html %}
 
-<body class="home blog scheme-default layout-alt sidebar-content snowbird-popup" itemtype="http://schema.org/WebPage" itemscope="itemscope">
+<body class="home blog scheme-default layout-alt" itemtype="http://schema.org/WebPage" itemscope="itemscope">
 
 <div class="xf__site hfeed">
 	<div class="content-area">
@@ -11,17 +11,17 @@
 	<div class="content xf__header-logo xf__container">
 
 			<h2 class="site-title" itemprop="headline">
-				<a href="/" rel="home">Roby and Paul</a></h2>
 
-							<p class="site-description">Travel Blog</p>
+
+				<a href="/" rel="home"><img src="/assets/img/logo.png" width="250" height="250" alt=""></a></h2>
 
 			</div>
 
 
 	<div class="background">
-		<img src="/assets/photos/italy2017/sea.jpeg" width="1600" height="360" alt="">
+		<img src="/assets/img/header_blured.jpg" width="1600" height="360" alt="">
 
-		<div class="overlay"></div>
+
 	</div>
 </header>
 
@@ -30,7 +30,7 @@
 
 {% for post in site.posts %}
 
-{% include article_preview.html content=post.content title=post.title url=post.url%}
+{% include article_preview.html content=post.content title=post.title url=post.url header=post.header %}
 
 {% endfor %}
 

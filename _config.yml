@@ -37,6 +37,14 @@ defaults:
     values:
       image: true
 
+authors:
+  roby:
+    display_name: Roberta Vittiglio
+    gravatar: roby
+  paul:
+    display_name: Paul Schydlo
+    gravatar: paul
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.

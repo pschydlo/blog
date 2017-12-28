@@ -3223,7 +3223,7 @@ img.mfp-img {
   width: auto;
 }
 .xf__header .background .overlay {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.5);
   bottom: 0;
   left: 0;
   position: absolute !important;
