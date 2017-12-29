@@ -1,5 +1,5 @@
 ---
-title: Roby and Paul - Travel Blog
+title: One Place, One Story - Travel Blog
 layout: default
 ---
 
