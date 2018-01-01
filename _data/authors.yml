@@ -1,6 +1,7 @@
 roby:
   display_name: Roberta Vittiglio
   gravatar: roby_round.png
+  description: Full time nomad, slayer of obstacles and conqueror of dreams.
 
 paul:
   display_name: Paul Schydlo

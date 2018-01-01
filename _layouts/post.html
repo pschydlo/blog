@@ -2,6 +2,8 @@
 
 {% include header.html %}
 
+{% assign author = site.data.authors[page.author] %}
+
 <body class="post-template-default single single-post postid-331 single-format-standard scheme-default sidebar-content snowbird-popup" itemtype="http://schema.org/WebPage" itemscope="itemscope">
 
 <div class="xf__site hfeed">
@@ -31,14 +33,14 @@
 
 <div class="xf__author-bio" itemtype="http://schema.org/Person" itemscope="itemscope" itemprop="author">
 	<div class="bio-header clear">
-		<img alt="" src="/assets/img/4da4abb3019691ca39e2311ba483965a" srcset="https://secure.gravatar.com/avatar/4da4abb3019691ca39e2311ba483965a?s=160&amp;d=mm&amp;r=g 2x" class="avatar avatar-80 photo" height="80" width="80" itemprop="image">
+		<img alt="" src="/assets/img/gravatars/{{author.gravatar}}" srcset="https://secure.gravatar.com/avatar/4da4abb3019691ca39e2311ba483965a?s=160&amp;d=mm&amp;r=g 2x" class="avatar avatar-80 photo" height="80" width="80" itemprop="image">
 		<div class="entry-author vcard">
-			Written by <span class="fn author" itemprop="name"><a class="url" href="https://demo.xfrontend.com/snowbird/author/dummy/" title="Posts by Katy Wittner" itemprop="url" rel="author">Katy Wittner</a></span>		</div>
+			Written by <span class="fn author" itemprop="name">{{author.display_name}}</a></span>		</div>
 	</div>
 
 	<hr class="separator">
 
-			<div class="bio-content" itemprop="description"><p>Journalism major at northwestern for Economics, and Development Recruiter Editor @envato.</p>
+			<div class="bio-content" itemprop="description"><p>{{author.description}}</p>
 </div>
 
 		<hr class="separator">
