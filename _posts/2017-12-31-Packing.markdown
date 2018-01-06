@@ -8,7 +8,7 @@ permalink: /posts/packing
 header: '/assets/img/header/packing.jpeg'
 ---
 
-<span class="dropcap"> Y </span> ou are here! Congratulations for having identified your first traveler problem.
+<span class="dropcap">Y</span>ou are here! Congratulations for having identified your first traveler problem.
 
 Don’t feel stressed, you are suffering from a very common travel problem: The Packing Nightmare!!
 
