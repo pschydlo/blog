@@ -1,14 +1,14 @@
 ---
 layout: post
-title:  "How to pack your bag"
-date:   2017-12-31 00:20:14 +0000
+title:  "20 Days of India - Goa"
+date:   2018-01-04 00:20:14 +0000
 author: roby
 categories: travel
-permalink: /posts/packing
-header: '/assets/img/header/packing.jpeg'
+permalink: /posts/goa
+header: '/assets/img/header/goa.jpeg'
 ---
 
-<span class="dropcap"> Y </span> ou are here! Congratulations for having identified your first traveler problem.
+You are here! Congratulations for having identified your first traveler problem.
 
 Don’t feel stressed, you are suffering from a very common travel problem: The Packing Nightmare!!
 
