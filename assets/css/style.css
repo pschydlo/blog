@@ -413,6 +413,52 @@ pre code {
   padding: 0;
 }
 
+.pure-menu-link {
+  color: #212121;
+  font-family: "Anton", sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+}
+
+.pure-menu-text{
+  color: #212121;
+  font-family: "Anton", sans-serif;
+  font-weight: normal;
+  line-height: 1.2;
+  margin-right: 1%;
+  margin-top: 5px;
+}
+
+
+.pure-menu-link:hover{
+  color: #212121;
+}
+
+.sticky {
+  position: sticky;
+  top: -1px;
+}
+
+.pure-menu {
+  background-color: #f8f8f8;
+  z-index: 10;
+  padding-top: 5px;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+.pure-menu a{
+  color: #212121;
+}
+
+.pure-menu a :hover{
+  color: #212121;
+}
+
+.pure-menu a :active{
+  color: #212121;
+}
+
 /*--------------------------------------------------------------
 # Elements
 --------------------------------------------------------------*/
@@ -4402,6 +4448,7 @@ object {
 .xf__feaured-image:not(.alignnone) img {
   margin-left: auto;
   margin-right: auto;
+  z-index: -5;
 }
 
 .xf__thumbnail img,
@@ -4409,6 +4456,7 @@ object {
   display: block;
   height: auto;
   width: 100%;
+  z-index: -5;
 }
 
 .xf__feaured-image-alt {
@@ -4448,6 +4496,19 @@ body.single .xf__entry img.aligncenter.full-width {
     height: auto;
   }
 }
+
+/*-----------------------
+## Pure CSS Pull right
+------------------------*/
+
+.pure-menu-horizontal .pure-menu-list {
+    display: inline-flex;
+    width: 100%;
+}
+.pure-menu-item-separator {
+    flex-grow: 1;
+}
+
 /*--------------------------------------------------------------
 ## Captions
 --------------------------------------------------------------*/

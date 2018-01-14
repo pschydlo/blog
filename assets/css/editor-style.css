@@ -1030,6 +1030,7 @@ object {
   display: block;
   height: auto;
   width: 100%;
+  z-index: -5;
 }
 
 .xf__feaured-image-alt {

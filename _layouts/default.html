@@ -25,7 +25,14 @@
 	</div>
 </header>
 
+
+
+{% include navbar.html %}
+
+
+
 <main class="xf__main" itemprop="mainContentOfPage">
+
 <div id="main" class="xf__posts" itemtype="http://schema.org/Blog" itemscope="itemscope">
 
 {% for post in site.posts %}
@@ -34,9 +41,7 @@
 
 {% endfor %}
 
-</article>
-
-					</div>
+</div>
 
 
 		<nav class="xf__nav-pagination pagination" role="navigation">
