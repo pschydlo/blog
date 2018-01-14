@@ -443,8 +443,13 @@ pre code {
   background-color: #f8f8f8;
   z-index: 10;
   padding-top: 5px;
-  padding-left: 20%;
-  padding-right: 20%;
+}
+
+@media screen and (min-width: 480px) {
+  .pure-menu {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
 }
 
 .pure-menu a{
