@@ -1,11 +1,12 @@
 ---
 layout: post
-title:  "How to pack your bag"
-date:   2017-12-31 00:20:14 +0000
+title: How to pack your bag
+date: '2017-12-31 00:20:14 +0000'
 author: roby
 categories: travel
 permalink: /posts/packing
-header: '/assets/img/header/packing.jpeg'
+header: /assets/img/header/packing.jpeg
+published: true
 ---
 
 <span class="dropcap">Y</span>ou are here! Congratulations for having identified your first traveler problem.
@@ -19,16 +20,16 @@ The first step when packing a traveling bag is to choose your main luggage. Are 
 
 Then, identify your categories. From those, you can separate things and prioritize by level of importance. Let’s begin!
 
-<h3>Categories</h3>
-<ul>
-<li>Clothes</li>
-<li>Medicine</li>
-<li>Documents</li>
-<li>Hygiene products</li>
-<li>Tech Utilities</li>
-<li>Non-Tech Utilities</li>
-<li>Work materials (laptops, cameras, etc.)</li>
-</ul>
+###Categories
+
+- Clothes
+- Medicine
+- Documents
+- Hygiene products
+- Tech Utilities
+- Non-Tech Utilities
+- Work materials (laptops, cameras, etc.)
+
 Everything you can’t put in the above categories is not worth your time, meaning that you should get rid of them! This is a perfect moment to examine the things you have been collecting since your last trip or last cleanings! Use this moment as a good opportunity to get rid of clothes you don’t use anymore, electronics, furniture, books, and all the other stuff you don’t even remember when you got it! We suggest you to ask your familiars and friends if they want anything, sell things in a second-hand store, or donate clothes and books to help centers and so on.
 
 Before we move to the second step, you should invest some time to reflect in your trip. How many days/weeks/months are you planning to travel? How is the weather in the destination(s)? How Is the laundry situation there, do you have washing machines or locals normally wash clothes by hand?
@@ -38,29 +39,29 @@ If you are planning a trip to a tropical, hot and/or humid country, you should t
 Additionally, if you are going to a country where mosquitoes are a common problem, focus in bringing long-sleeved clothes.
 Let’s move to the next step! Now it’s time to get into specifics:
 
-<h3>Clothes:</h3>
-<ul>
-<li>Jeans/Pants</li>
-<li>Skirts/Dresses</li>
-<li>Shorts</li>
-<li>Underwear</li>
-<li>Long-sleeve shirts</li>
-<li>T-shirts</li>
-<li>Pajamas/sleepwear</li>
-<li>Jacket</li>
-<li>Rain Coat</li>
-<li>Scarf/bandana</li>
-<li>Hat</li>
-<li>Gloves</li>
-<li>Belt</li>
-<li>Bikini/Beach clothes</li>
-<li>Fitness clothes and shoes</li>
-<li>Flip Flops - sandals</li>
-<li>Quick drying Towels</li>
-<li>Sunglasses and glasses case</li>
-<li>Jewelry (take as less as you can and try to organize it in small boxes)</li>
+###Clothes:
 
-<h3>Medicine:</h3>
+- Jeans/Pants
+- Skirts/Dresses
+- Shorts
+- Underwear
+- Long-sleeve shirts
+- T-shirts
+- Pajamas/sleepwear
+- Jacket
+- Rain Coat
+- Scarf/bandana
+- Hat
+- Gloves
+- Belt
+- Bikini/Beach clothes
+- Fitness clothes and shoes
+- Flip Flops - sandals
+- Quick drying Towels
+- Sunglasses and glasses case
+- Jewelry (take as less as you can and try to organize it in small boxes)
+
+###Medicine:
 <ul>
 <li>Medicine for pain and fever (E.g.: acetaminophen, aspirin, or ibuprofen)</li>
 <li>Diarrhea medicine (Examples: loperamide [Imodium] or bismuth subsalicylate [Pepto-Bismol]</li>
