@@ -20,7 +20,7 @@ The first step when packing a traveling bag is to choose your main luggage. Are 
 
 Then, identify your categories. From those, you can separate things and prioritize by level of importance. Let’s begin!
 
-###Categories
+### Categories
 
 - Clothes
 - Medicine
@@ -39,7 +39,7 @@ If you are planning a trip to a tropical, hot and/or humid country, you should t
 Additionally, if you are going to a country where mosquitoes are a common problem, focus in bringing long-sleeved clothes.
 Let’s move to the next step! Now it’s time to get into specifics:
 
-###Clothes:
+### Clothes:
 
 - Jeans/Pants
 - Skirts/Dresses
@@ -61,7 +61,7 @@ Let’s move to the next step! Now it’s time to get into specifics:
 - Sunglasses and glasses case
 - Jewelry (take as less as you can and try to organize it in small boxes)
 
-###Medicine:
+### Medicine:
 <ul>
 <li>Medicine for pain and fever (E.g.: acetaminophen, aspirin, or ibuprofen)</li>
 <li>Diarrhea medicine (Examples: loperamide [Imodium] or bismuth subsalicylate [Pepto-Bismol]</li>
