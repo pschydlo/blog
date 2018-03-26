@@ -5,7 +5,7 @@ date: '2017-12-31 00:20:14 +0000'
 author: roby
 categories: travel
 permalink: /posts/packing
-header: /assets/img/header/packing_header.jpeg
+header: /assets/img/header/packing_header.jpg
 published: true
 ---
 
