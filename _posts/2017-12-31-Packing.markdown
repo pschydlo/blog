@@ -178,7 +178,7 @@ You should consider a language/translation app, a directions app, a drive/backup
 <p>After having a list of all the things you want to bring with you, it's time to the actual packing!
 First, we suggest that you roll up your clothes to better use of space in your bag!</p>
 
-<p>Not everything listed is mandatory because every trip is an unique experience with unique necessities!
+Not everything listed is mandatory because every trip is an unique experience with unique necessities!
 You should always adapt and be flexible to each situation. When you travel you get the experience that helps you identify the things you REALLY need.
   
 We suggest you to give special attention to Medicine and Documents Items because those leave small space for improvisation while traveling! When you need them, or you have them or you don't, and then is up to you to find a solution (and most of the times it's an headache)!
@@ -192,4 +192,3 @@ You should think about diferent unexpect scenarios like the airline or a bus com
 We are always updating this lists so if you have suggestions, be sure to let us know by contact link!
 
 We wish you a pleasant trip and hope that your worries are not related to packing anymore! 😉
-</p>
