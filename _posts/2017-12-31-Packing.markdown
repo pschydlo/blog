@@ -5,7 +5,7 @@ date: '2017-12-31 00:20:14 +0000'
 author: roby
 categories: travel
 permalink: /posts/packing
-header: /assets/img/header/packing.jpeg
+header: /assets/img/header/packing_header.jpeg
 published: true
 ---
 
@@ -14,7 +14,8 @@ published: true
 Don’t feel stressed, you are suffering from a very common travel problem: The Packing Nightmare!!
 
 You have too much stuff to take with you and you just realized your bag is too small. Or you need some tips from experienced travelers in how they have found the best packing strategies to survive this daunting task.
-Either way, here we are to give you some advice and tips! From our experience, if not managed properly this is may be the most energy drawing task prior to traveling ever discovered!
+Either way, here we are to give you some advice and tips! From our experience, if not managed properly this is may be the most energy drawing task prior to traveling ever discovered!!
+
 
 The first step when packing a traveling bag is to choose your main luggage. Are you planning to take a rolling luggage, travel backpack or carry-on/cabin bag? Also, it’s very important to choose a good quality bag for your trip! You don’t want to carry a bag with broken wheels or zips, or that is heavy and uncomfortable to carry with you all time and you end up more exausted of taking your things around than from exploring new places!
 
