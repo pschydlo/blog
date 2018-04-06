@@ -18,7 +18,7 @@
 
 <article id="post-331" class="post-331 post type-post status-publish format-standard has-post-thumbnail hentry category-photography tag-fun tag-gallery tag-nature xf__entry has-author-bio xf__singular" itemtype="http://schema.org/BlogPosting" itemscope="itemscope" itemprop="blogPost">
 		<figure class="xf__feaured-image" aria-hidden="true">
-		<img width="1600" height="600" src="{{page.header}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="A Road Trip Through the Heart of Russia" itemprop="image">	</figure>
+		<img width="1600" height="600" src="{{page.header}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{page.title}}" itemprop="image">	</figure>
 
 	<div class="xf__post-wrapper">
 		<div class="xf__container xf__entry-container">
@@ -87,14 +87,26 @@
 			</footer>
 		</div>
 
-		<nav class="xf__post-navigation">
+<nav class="xf__post-navigation">
 	<h2 class="screen-reader-text">Post navigation</h2>
 
 	<div class="xf__nav-post">
-		<a href="https://demo.xfrontend.com/snowbird/ten-reasons-to-visit-bosnia-hercegovina/" rel="prev"><img class="xf__img" width="120" src="./A Road Trip Through the Heart of Russia — Snowbird_files/clouds-mountains-nature-3826-120x120.jpg" alt=""> <div class="xf__title" data-title="Prev">Ten Reasons to Visit Bosnia &amp; Hercegovina</div></a>		<a href="https://demo.xfrontend.com/snowbird/mountain-winter-landscape-in-austria/" rel="next">
-			<img class="xf__img" width="120" src="{{page.header}}" alt=""> <div class="xf__title" data-title="Next">Mountain Winter Landscape in Austria</div></a>	</div>
-</nav>
+		{% if page.previous.url %}
+		<a href="{{page.previous.url}}" rel="prev">
+			<img class="xf__img" style="object-fit: cover; height: 80px; width: 80px;" src="{{page.previous.header}}" alt="">
+			<div class="xf__title" data-title="Prev">{{page.previous.title}}</div>
+		</a>
+		{% endif %}
+		{% if page.next.url %}
+		<a href="{{page.next.url}}" rel="next">
+			<img class="xf__img" style="object-fit: cover; height: 80px; width: 80px;" src="{{page.next.header}}" alt="">
+			<div class="xf__title" data-title="Next">{{page.next.title}}</div>
+		</a>
+		{% endif %}
 	</div>
+</nav>
+
+</div>
 </article>
 
 						<div class="xf__block xf__related">
@@ -105,66 +117,26 @@
 
 					<div class="row">
 
-							<div class="column related-item one-fourth">
-								<a href="https://demo.xfrontend.com/snowbird/computer-and-geek-evolution/">
-									<div class="wrapper">
-										<div class="content">
-											<h4 class="post-title">Computer and Geek Evolution</h4>
+						{% for onepage in site.posts limit: 4%}
+						{% if page.id != onepage.id %}
+						<div class="column related-item one-fourth">
+							<a href="{{onepage.url}}">
+								<div class="wrapper">
+									<div class="content">
+										<h4 class="post-title">{{onepage.title}}</h4>
 
-											<span class="post-date"><time class="entry-date published" datetime="2015-05-19T10:32:56+00:00">May 19, 2015</time></span>										</div>
-									</div>
+										<span class="post-date"><time class="entry-date published" datetime="2015-05-19T10:32:56+00:00">May 19, 2015</time></span>										</div>
+								</div>
 
-																			<img width="400" height="400" src="./A Road Trip Through the Heart of Russia — Snowbird_files/lake-landscape-mountains-3747-400x400.jpg" class="attachment-snowbird-thumb size-snowbird-thumb wp-post-image" alt="" srcset="https://demo.xfrontend.com/snowbird/wp-content/uploads/lake-landscape-mountains-3747-400x400.jpg 400w, https://demo.xfrontend.com/snowbird/wp-content/uploads/lake-landscape-mountains-3747-320x320.jpg 320w, https://demo.xfrontend.com/snowbird/wp-content/uploads/lake-landscape-mountains-3747-120x120.jpg 120w" sizes="(max-width: 400px) 100vw, 400px">
-										<div class="overlay"></div>
-																	</a>
-							</div>
+																		<img width="400" height="400" src="{{onepage.header}}">
+									<div class="overlay"></div>
+																</a>
+						</div>
 
+						{% endif %}
+						{% endfor %}
 
-							<div class="column related-item one-fourth">
-								<a href="https://demo.xfrontend.com/snowbird/post-format-gallery/">
-									<div class="wrapper">
-										<div class="content">
-											<h4 class="post-title">Post Format Gallery</h4>
-
-											<span class="post-date"><time class="entry-date published" datetime="2015-05-01T07:11:05+00:00">May 1, 2015</time></span>										</div>
-									</div>
-
-																			<img width="400" height="400" src="/assets/img/elbe-sandstone-mountains-247450_1920-400x400.jpg" class="attachment-snowbird-thumb size-snowbird-thumb wp-post-image" alt="" srcset="https://demo.xfrontend.com/snowbird/wp-content/uploads/elbe-sandstone-mountains-247450_1920-400x400.jpg 400w, https://demo.xfrontend.com/snowbird/wp-content/uploads/elbe-sandstone-mountains-247450_1920-320x320.jpg 320w, https://demo.xfrontend.com/snowbird/wp-content/uploads/elbe-sandstone-mountains-247450_1920-120x120.jpg 120w" sizes="(max-width: 400px) 100vw, 400px">
-										<div class="overlay"></div>
-																	</a>
-							</div>
-
-
-							<div class="column related-item one-fourth">
-								<a href="https://demo.xfrontend.com/snowbird/mountain-winter-landscape-in-austria/">
-									<div class="wrapper">
-										<div class="content">
-											<h4 class="post-title">Mountain Winter Landscape in Austria</h4>
-
-											<span class="post-date"><time class="entry-date published" datetime="2015-09-18T11:03:20+00:00">September 18, 2015</time></span>										</div>
-									</div>
-
-																			<img width="400" height="400" src="./A Road Trip Through the Heart of Russia — Snowbird_files/post-img01-400x400.jpg" class="attachment-snowbird-thumb size-snowbird-thumb wp-post-image" alt="" srcset="https://demo.xfrontend.com/snowbird/wp-content/uploads/post-img01-400x400.jpg 400w, https://demo.xfrontend.com/snowbird/wp-content/uploads/post-img01-320x320.jpg 320w, https://demo.xfrontend.com/snowbird/wp-content/uploads/post-img01-120x120.jpg 120w" sizes="(max-width: 400px) 100vw, 400px">
-										<div class="overlay"></div>
-																	</a>
-							</div>
-
-
-							<div class="column related-item one-fourth">
-								<a href="https://demo.xfrontend.com/snowbird/the-day-start-with-coffee/">
-									<div class="wrapper">
-										<div class="content">
-											<h4 class="post-title">The Day Start with Coffee</h4>
-
-											<span class="post-date"><time class="entry-date published" datetime="2015-06-27T10:30:03+00:00">June 27, 2015</time></span>										</div>
-									</div>
-
-																			<img width="400" height="400" src="./A Road Trip Through the Heart of Russia — Snowbird_files/hiking-landscape-mountains-1119-400x400.jpg" class="attachment-snowbird-thumb size-snowbird-thumb wp-post-image" alt="" srcset="https://demo.xfrontend.com/snowbird/wp-content/uploads/hiking-landscape-mountains-1119-400x400.jpg 400w, https://demo.xfrontend.com/snowbird/wp-content/uploads/hiking-landscape-mountains-1119-320x320.jpg 320w, https://demo.xfrontend.com/snowbird/wp-content/uploads/hiking-landscape-mountains-1119-120x120.jpg 120w" sizes="(max-width: 400px) 100vw, 400px">
-										<div class="overlay"></div>
-																	</a>
-							</div>
-
-											</div>
+						</div>
 				</div>
 			</div>
 
